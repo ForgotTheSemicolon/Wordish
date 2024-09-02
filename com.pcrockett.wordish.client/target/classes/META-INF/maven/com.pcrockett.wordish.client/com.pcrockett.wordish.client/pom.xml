@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.3.3</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+  <groupId>com.pcrockett.wordish.client</groupId>
+  <artifactId>com.pcrockett.wordish.client</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Wordish Client</name>
+  <description>Client for Wordish application</description>
+	<properties>
+		<java.version>22</java.version>
+	</properties>
+	<dependencies>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		
+		<dependency>
+     		<groupId>org.junit.jupiter</groupId> 
+     		<artifactId>junit-jupiter-api</artifactId>      
+     		<scope>test</scope> 
+		</dependency>	
+	</dependencies>
+
+  
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>        
+        <configuration>
+          <release>22</release>
+        </configuration>
+      </plugin>
+		<plugin>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-maven-plugin</artifactId>
+		</plugin>      
+    </plugins>
+  </build>
+</project>

@@ -1,0 +1,13 @@
+You could be playing REAL Wordle!
+No one cares about your streak!
+Hello SAS!
+Gimmie 5 (letters)!
+Give Paul a job!
+Your words are in another castle...
+Not Wordle, just a bit Wordish
+Backend courtesy of Spring Boot
+Recycling Wordle words since 2024
+//Todo: Add snarky saying
+What does Wordle have that I don't?
+UPPERCASE ONLY
+All your words are belong to us!
